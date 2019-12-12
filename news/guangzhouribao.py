@@ -3,7 +3,7 @@ from Tools.tools import headers, md_5, MysqlHelper
 import re
 from time import sleep
 
-helper = MysqlHelper('221.225.81.216', 23355, 'acq_data', 'rps_data', 'sLNJ&Auqe9pXSs2(')
+helper = MysqlHelper('xxx.xxx.xxx.xxx', port, 'db', 'user', 'password')
 
 
 def get_siteid():
